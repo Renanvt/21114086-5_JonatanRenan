@@ -1,0 +1,34 @@
+MARCA
+lucky sugar
+DOCE:
+brigadeiro
+
+HEADER
+logotipo
+nome
+dados
+
+MENU - NAV
+home
+quem somos
+contato
+localização
+
+MAIN
+QUEM SOMOS
+empresa fictícia, quando ela surgiu, onde está localizada, quanto tempo está no mercado, público alvo
+
+HOME
+apresenta 5 produtos do doce escolhido, com imagens, nome e preço. Ao clickar na imagem abrir uma outra página com mais detalhes do produto clickado
+
+CONTATO
+formulário de contato, sem ação ao enviar, no máximo apresentar os dados enviados em outra página, não mandar pra banco de dados, etc
+
+LOCALIZAÇÃO
+print do google maps ou colocar o google maps pra funcionar
+
+FOOTER
+dados acadêmicos
+
+README
+perfil de desenvolvedor e dados acadêmicos
