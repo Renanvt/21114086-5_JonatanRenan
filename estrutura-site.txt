@@ -16,7 +16,7 @@ nome
 dados
 
 ASIDE
-Lista de produtos
+3 produtos principais
 
 MENU - NAV
 home
