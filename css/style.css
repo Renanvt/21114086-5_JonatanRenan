@@ -145,7 +145,7 @@ div#rect-frente>img#beijinho {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-main > div#main-rect-fundo {
+main>div#main-rect-fundo {
     position: relative;
     width: 798.68px;
     height: 815.3px;
@@ -155,7 +155,7 @@ main > div#main-rect-fundo {
     border: 1px solid #0D0D0D;
 }
 
-main >div>div#main-rect-frente {
+main>div>div#main-rect-frente {
     position: relative;
     width: 768.8px;
     height: 784.8px;
@@ -164,8 +164,7 @@ main >div>div#main-rect-frente {
     bottom: 15.96px;
     border: 1px solid #8C5042;
     box-sizing: border-box;
-
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
     background: #E9E6E6;
 }
@@ -176,7 +175,62 @@ footer {
     height: 82px;
     left: 0px;
     top: 1418px;
-    
     background: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section>header>h1 {
+    position: relative;
+    width: 329px;
+    height: 35px;
+    left: 62.2px;
+    top: 3.40px;
+
+    font-family: Shrikhand, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #8C5042;
+}
+
+section>p {
+    position: relative;
+    width: 154px;
+    height: 136px;
+    left: 62.2px;
+    top: -4px;
+    bottom: 3px;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+
+section>button {
+    position: relative;
+    width: 78px;
+    height: 30.43px;
+    left: 62.2px;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.25);
+    background: #D90404;
+    border-radius: 14px;
+    border: 1px solid #8C5042;
+}
+
+section>button>span {
+    font-family: Shrikhand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+section#mapa{
+    position: absolute;
+    left: 286px;
+   top:350px;
 }
