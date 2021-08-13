@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    background-color:rgba(240, 189, 189, 0.25)
 }
 
 main#corpo {
@@ -16,6 +17,7 @@ main#corpo {
     top: -1px;
     background: #764A61;
     border: 1px solid #8C5042;
+    filter: drop-shadow(0px 4px 8px rgba(0,0,0,0.25));
 }
 
 nav#menu {
@@ -50,6 +52,8 @@ li>div>a {
     font-weight: 400;
     line-height: 17px;
     color: #8C5042;
+
+   
 }
 
 li>div#Home {
@@ -92,7 +96,7 @@ li>div#Localização {
     bottom: 97.67%;
 }
 
-aside div#rect-fundo {
+nav div#rect-fundo {
     position: absolute;
     width: 831px;
     height: 163px;
@@ -102,9 +106,10 @@ aside div#rect-fundo {
     border: 1px solid #0D0D0D;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
 }
 
-aside>div#rect-frente {
+nav>div#rect-frente {
     position: absolute;
     width: 815px;
     height: 158px;
@@ -123,6 +128,27 @@ div#rect-frente>img#brigadeiro {
     bottom: 5px;
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+img#estrelas-1 {
+    position: relative;
+    top: 132px;
+    left: 67px;
+    bottom: 9px;
+}
+
+img#estrelas-2 {
+    position: relative;
+    top: 132px;
+    left: 215px;
+    bottom: 9px;
+}
+
+img#estrelas-3 {
+    position: relative;
+    top: 132px;
+    left: 365px;
+    bottom: 9px;
 }
 
 div#rect-frente>img#pacoca {
@@ -185,13 +211,14 @@ section>header>h1 {
     height: 35px;
     left: 62.2px;
     top: 3.40px;
-
     font-family: Shrikhand, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 35px;
     color: #8C5042;
+    box-sizing: border-box;
+    
 }
 
 section>p {
@@ -214,7 +241,7 @@ section>button {
     width: 78px;
     height: 30.43px;
     left: 62.2px;
-    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background: #D90404;
     border-radius: 14px;
     border: 1px solid #8C5042;
@@ -229,8 +256,39 @@ section>button>span {
     color: #FFFFFF;
 }
 
-section#mapa{
+section#mapa {
     position: absolute;
     left: 286px;
-   top:350px;
+    top: 350px;
+}
+
+section>div.amostras {
+    position: relative;
+    left: 503.2px;
+    
+}
+
+section>div>img#brigadeiro-2 {
+    position: absolute;
+    top: -185px;
+    border: 1px solid #8C5042;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   
+}
+
+section>div>img#casadinho {
+    position: absolute;
+    top: -185px;
+    border: 1px solid #8C5042;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+section>div>img#cajuzinho {
+    position: absolute;
+    top: -185px;
+    border: 1px solid #8C5042;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }

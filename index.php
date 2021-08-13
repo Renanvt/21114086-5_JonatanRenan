@@ -1,18 +1,21 @@
 <?php
 include 'layout/header.php';
 ?>
-<aside>
+<nav>
     <div id="rect-fundo">
     </div>
     <div id="rect-frente">
         <img src="img/section/800px-Brigadeiro.jpg" alt="Foto-de-brigadeiro-de-chocolate" id="brigadeiro" />
+        <img src="img/section/Estrelas.png" alt="Foto-de-5-Estrelas" id="estrelas-1" />
 
-        <img src="img/section/paçoca.jpg" alt="Foto-de-brigadeiro-de-paçoca" id="pacoca" />
-
+        <img src="img/section/paçoca.jpg" alt="Foto-de-brigadeiro-de-paçoca" id="pacoca" id="estrelas-2" />
+        <img src="img/section/Estrelas.png" alt="Foto-de-5-Estrelas" id="estrelas-2" />
 
         <img src="img/section/beijinho.jpg" alt="Foto-de-brigadeiro-de-beijinho" id="beijinho" />
+        <img src="img/section/Estrelas.png" alt="Foto-de-5-Estrelas" id="estrelas-3" />
+
     </div>
-</aside>
+</nav>
 
 <main>
     <div id="main-rect-fundo">
@@ -23,7 +26,13 @@ include 'layout/header.php';
                 </header>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore voluptas recusandae explicabo beatae sequi quidem, quibusdam in asperiores mollitia, quaerat at maxime sit inventore. Odio quisquam quam eveniet eaque ipsum?</p>
                 <button type="submit" value="Ver mais"><span>Ver mais</span></button>
+
+                <div class="amostras">
+                    <img src="img/main/index/Brigadeiro.jpg" alt="Foto-de-Brigadeiro" id="brigadeiro-2">
+                </div>
             </section>
+
+
 
             <section>
                 <header>
@@ -39,7 +48,12 @@ include 'layout/header.php';
                 <-->
                 <button type="submit" value="Ver mais"><span>Ver mais</span></button>
 
+                <div class="amostras">
+                    <img src="img/main/index/casadinho.jpg" alt="Foto-de-Casadinho" id="casadinho">
+                </div>
             </section>
+
+
 
             <section>
                 <header>
@@ -50,6 +64,9 @@ include 'layout/header.php';
 
                 <button type="submit" value="Ver mais"><span>Ver mais</span></button>
 
+                <div class="amostras">
+                    <img src="img/main/index/Cajuzinho-Vegano.jpg" alt="Foto-de-Cajuzinho" id="cajuzinho">
+                </div>
             </section>
         </div>
     </div>
