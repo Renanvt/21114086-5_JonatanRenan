@@ -407,3 +407,40 @@ img#pacoca6 {
     left: 80px;
     top: 221px;
 }
+
+
+img.beijinhos {
+    position: relative;
+    width: 214px;
+    height: 160px;
+}
+
+img#beijinho1 {
+    left: 59.2px;
+    top: 29.41px;
+}
+
+img#beijinho2 {
+    left: 70px;
+    top: 29.41px;
+}
+
+img#beijinho3 {
+    left: 80px;
+    top: 29.41px;
+}
+
+img#beijinho4 {
+    left: 59.2px;
+    top: 221px;
+}
+
+img#beijinho5 {
+    left: 70px;
+    top: 221px;
+}
+
+img#beijinho6 {
+    left: 80px;
+    top: 221px;
+}
