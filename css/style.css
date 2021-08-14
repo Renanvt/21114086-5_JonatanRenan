@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color:rgba(240, 189, 189, 0.25)
+    background-color: rgba(240, 189, 189, 0.25)
 }
 
 main#corpo {
@@ -17,7 +17,7 @@ main#corpo {
     top: -1px;
     background: #764A61;
     border: 1px solid #8C5042;
-    filter: drop-shadow(0px 4px 8px rgba(0,0,0,0.25));
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
 }
 
 nav#menu {
@@ -35,7 +35,7 @@ header#rect-main {
     height: 290px;
     left: 0px;
     top: 2px;
-    background: url(../img/header/woman-mouth-teeth-sweets.jpg);
+    background: url(../img/header/woman-mouth-teeth-sweets.jpg) no-repeat 0px 20px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     backdrop-filter: blur(4px);
 }
@@ -52,8 +52,6 @@ li>div>a {
     font-weight: 400;
     line-height: 17px;
     color: #8C5042;
-
-   
 }
 
 li>div#Home {
@@ -106,7 +104,6 @@ nav div#rect-fundo {
     border: 1px solid #0D0D0D;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
 }
 
 nav>div#rect-frente {
@@ -218,7 +215,6 @@ section>header>h1 {
     line-height: 35px;
     color: #8C5042;
     box-sizing: border-box;
-    
 }
 
 section>p {
@@ -265,7 +261,6 @@ section#mapa {
 section>div.amostras {
     position: relative;
     left: 503.2px;
-    
 }
 
 section>div>img#brigadeiro-2 {
@@ -274,7 +269,6 @@ section>div>img#brigadeiro-2 {
     border: 1px solid #8C5042;
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-   
 }
 
 section>div>img#casadinho {
@@ -291,4 +285,125 @@ section>div>img#cajuzinho {
     border: 1px solid #8C5042;
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+img#Logo {
+    position: absolute;
+    width: 201px;
+    height: 170px;
+    left: 350px;
+    top: 89px;
+}
+
+h1#principal {
+    position: absolute;
+    width: 441px;
+    height: 70px;
+    left: 309px;
+    top: 229px;
+    font-family: Shrikhand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    color: #D72828;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+    text-shadow: -5px 2px 4px rgba(0, 0, 0, 0.47);
+}
+
+div#prod-rect-fundo {
+    position: absolute;
+    width: 831px;
+    height: 95px;
+    left: 34px;
+    top: 334px;
+    background: #904142;
+    border: 1px solid #0D0D0D;
+    box-sizing: border-box;
+}
+
+div#prod-rect-frente {
+    position: relative;
+    width: 815px;
+    height: 92px;
+    left: 7px;
+    top: -7px;
+    background: #0D0D0D;
+    border: 1px solid #8C5042;
+    box-sizing: border-box;
+}
+
+div#prod-rect-frente>nav>ul>li {
+    display: inline;
+    position: relative;
+    left: 17px;
+    top: 12px;
+    bottom: 39px;
+    font-family: Shrikhand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+div#prod-rect-frente>nav>ul>li#A {
+    list-style-type: none;
+    color: #D90404;
+    left: -25px;
+}
+
+div#prod-rect-frente>nav>ul>li#B {
+    list-style-type: none;
+    color: #FFFFFF;
+    left: -12px;
+}
+
+div#prod-rect-frente>nav>ul>li#C {
+    list-style-type: none;
+    color: #FFFFFF;
+    left: -3px;
+}
+
+div#prod-rect-frente>nav>ul>li#D {
+    list-style-type: none;
+    color: #FFFFFF;
+    left: 6px;
+}
+
+img.pacocas {
+    position: relative;
+    width: 214px;
+    height: 160px;
+}
+
+img#pacoca1 {
+    left: 59.2px;
+    top: 29.41px;
+}
+
+img#pacoca2 {
+    left: 70px;
+    top: 29.41px;
+}
+
+img#pacoca3 {
+    left: 80px;
+    top: 29.41px;
+}
+
+img#pacoca4 {
+    left: 59.2px;
+    top: 221px;
+}
+
+img#pacoca5 {
+    left: 70px;
+    top: 221px;
+}
+
+img#pacoca6 {
+    left: 80px;
+    top: 221px;
 }
