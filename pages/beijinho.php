@@ -9,12 +9,12 @@ include '../layout/header.php';
 <script language="javascript">
     $(document).ready(function() {
         $('header#rect-main').css({
-            background: "url(../img/header/mulhercomendochocolate.jpg) no-repeat 0px 54px",
-            height: "369px",
-        }),
-        $('li#B').css({
-            color: "#D90404"
-        })
+                background: "url(../img/header/mulhercomendochocolate.jpg) no-repeat 0px 54px",
+                height: "369px",
+            }),
+            $('li#B').css({
+                color: "#D90404"
+            })
         $('li#A').css({
             color: "#FFFFFF"
         })
@@ -29,16 +29,24 @@ include '../layout/header.php';
         <nav>
             <ul>
                 <li id="A">
-                    Brigadeiro de Paçoca
+                    <a href="https://localhost/mapa/21114086-5_JonatanRenan/pages/produtos.php">
+                        Brigadeiro de Paçoca
+                    </a>
                 </li>
                 <li id="B">
-                    Beijinho
+                    <a href="https://localhost/mapa/21114086-5_JonatanRenan/pages/beijinho.php">
+                        Beijinho
+                    </a>
                 </li>
                 <li id="C">
-                    Cajuzinho Vegano
+                    <a href="https://localhost/mapa/21114086-5_JonatanRenan/pages/cajuzinho.php">
+                        Cajuzinho Vegano
+                    </a>
                 </li>
                 <li id="D">
-                    Cazadinho
+                    <a href="https://localhost/mapa/21114086-5_JonatanRenan/pages/cazadinho.php">
+                        Cazadinho
+                    </a>
                 </li>
             </ul>
         </nav>

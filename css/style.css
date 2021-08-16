@@ -5,12 +5,19 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
     background-color: rgba(240, 189, 189, 0.25)
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 main#corpo {
     position: relative;
+    min-height: 100%;
     width: 900px;
     height: 1500px;
     margin: auto;
@@ -193,11 +200,11 @@ main>div>div#main-rect-frente {
 }
 
 footer {
+    bottom: 0px;
     position: absolute;
     width: 900px;
     height: 82px;
     left: 0px;
-    top: 1418px;
     background: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -346,28 +353,33 @@ div#prod-rect-frente>nav>ul>li {
     font-size: 24px;
     line-height: 35px;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 div#prod-rect-frente>nav>ul>li#A {
     list-style-type: none;
+    text-decoration: none;
     color: #D90404;
     left: -25px;
 }
 
 div#prod-rect-frente>nav>ul>li#B {
     list-style-type: none;
+    text-decoration: none;
     color: #FFFFFF;
     left: -12px;
 }
 
 div#prod-rect-frente>nav>ul>li#C {
     list-style-type: none;
+    text-decoration: none;
     color: #FFFFFF;
     left: -3px;
 }
 
 div#prod-rect-frente>nav>ul>li#D {
     list-style-type: none;
+    text-decoration: none;
     color: #FFFFFF;
     left: 6px;
 }
@@ -376,6 +388,9 @@ img.pacocas {
     position: relative;
     width: 214px;
     height: 160px;
+    border: 1px solid #8C5042;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 img#pacoca1 {
@@ -408,11 +423,13 @@ img#pacoca6 {
     top: 221px;
 }
 
-
 img.beijinhos {
     position: relative;
     width: 214px;
     height: 160px;
+    border: 1px solid #8C5042;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 img#beijinho1 {
@@ -443,4 +460,247 @@ img#beijinho5 {
 img#beijinho6 {
     left: 80px;
     top: 221px;
+}
+
+img.cajuzinhos {
+    position: relative;
+    width: 214px;
+    height: 160px;
+    border: 1px solid #8C5042;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+img#cajuzinho1 {
+    left: 59.2px;
+    top: 29.41px;
+}
+
+img#cajuzinho2 {
+    left: 70px;
+    top: 29.41px;
+}
+
+img#cajuzinho3 {
+    left: 80px;
+    top: 29.41px;
+}
+
+img#cajuzinho4 {
+    left: 59.2px;
+    top: 221px;
+}
+
+img#cajuzinho5 {
+    left: 70px;
+    top: 221px;
+}
+
+img#cajuzinho6 {
+    left: 80px;
+    top: 221px;
+}
+
+img.cazadinhos {
+    position: relative;
+    width: 214px;
+    height: 160px;
+    border: 1px solid #8C5042;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+img#cazadinho1 {
+    left: 59.2px;
+    top: 29.41px;
+}
+
+img#cazadinho2 {
+    left: 70px;
+    top: 29.41px;
+}
+
+img#cazadinho3 {
+    left: 80px;
+    top: 29.41px;
+}
+
+img#cazadinho4 {
+    left: 59.2px;
+    top: 221px;
+}
+
+img#cazadinho5 {
+    left: 70px;
+    top: 221px;
+}
+
+img#cazadinho6 {
+    left: 80px;
+    top: 221px;
+}
+
+div#rect-right-gradient {
+    position: absolute;
+    width: 442px;
+    height: 794px;
+    left: calc(50% - 442px/2 + 229px);
+    top: 379px;
+    background: linear-gradient(180deg, #8C5042 0%, rgba(217, 134, 95, 0) 100%);
+    filter: blur(4px);
+    border-radius: 114px 0px 0px 0px;
+}
+
+div#rect-center-info {
+    position: absolute;
+    width: 386.78px;
+    height: 784.8px;
+    left: 250.0px;
+    top: 400.00px;
+    background: #8C5042;
+    border: 1px solid #D90404;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 0px 116px;
+    transform: rotate(90.17deg);
+}
+
+div#rect-left {
+    top: 700px;
+    position: absolute;
+    width: 286px;
+    height: 522px;
+    right: 614px;
+    bottom: 1323px;
+    background: #764A61;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 300px 0px;
+}
+
+h1#about {
+    position: absolute;
+    width: 255px;
+    height: 70px;
+    left: 117px;
+    top: 448px;
+    font-family: Shrikhand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 70px;
+    /* identical to box height */
+    color: #764A61;
+}
+
+h3#since {
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    left: 645px;
+    top: 523px;
+    font-family: Shrikhand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+    color: #D90404;
+}
+
+h2#history {
+    position: absolute;
+    width: 280px;
+    height: 37px;
+    left: 117px;
+    top: 595px;
+    font-family: Shrikhand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 52px;
+    color: #D90404;
+}
+
+p#p-history {
+    position: absolute;
+    width: 258px;
+    height: 180px;
+    left: 117px;
+    top: 668px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+h2#local {
+    position: absolute;
+    width: 264px;
+    height: 71px;
+    left: 510px;
+    top: 664px;
+    font-family: Shrikhand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    color: #D90404;
+}
+
+p#p-local {
+    position: absolute;
+    width: 258px;
+    height: 156px;
+    left: 510px;
+    top: 771px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+img#logo-about {
+    position: absolute;
+    left: 615px;
+    top: 379px;
+}
+
+div#circle1 {
+    border-radius: 50%;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 56px;
+    top: 1173px;
+    background: #904142;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+div#circle2 {
+    border-radius: 50%;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 338px;
+    top: 1173px;
+    background: #904142;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+div#circle3 {
+    border-radius: 50%;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 620px;
+    top: 1165px;
+    background: #904142;
+    border: 1px solid #000000;
+    box-sizing: border-box;
 }

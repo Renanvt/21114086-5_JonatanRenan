@@ -17,13 +17,13 @@
                 <ul>
                     <li>
                         <div class="rect" id="Home">
-                            <a href="index.php">Home</a>
+                            <a href="https://localhost/mapa/21114086-5_JonatanRenan/index.php">Home</a>
                         </div>
-                        <div class="rect" id="Produtos"><a href="index.php">Produtos</a></div>
+                        <div class="rect" id="Produtos"><a href="https://localhost/mapa/21114086-5_JonatanRenan/pages/produtos.php">Produtos</a></div>
                         <div class="rect" id="QuemSomos">
-                        <a href="index.php">Quem somos</a></div>
-                        <div class=" rect" id="Contato"><a href="index.php">Contato</a></div>
-                        <div class="rect" id="Localização"><a href="index.php">Localização</a></div>
+                        <a href="https://localhost/mapa/21114086-5_JonatanRenan/pages/quem-somos.php">Quem somos</a></div>
+                        <div class=" rect" id="Contato"><a href="https://localhost/mapa/21114086-5_JonatanRenan/pages/contato.php">Contato</a></div>
+                        <div class="rect" id="Localização"><a href="https://localhost/mapa/21114086-5_JonatanRenan/pages/localizacao.php">Localização</a></div>
                     </li>
                 </ul>
             </nav>

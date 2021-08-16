@@ -11,6 +11,15 @@ include '../layout/header.php';
         $('header#rect-main').css({
             background: "url(../img/header/mulhercomendochocolate.jpg) no-repeat 0px 54px",
             height: "369px",
+        }),
+        $('li#B').css({
+            color: "#FFFFFF"
+        })
+        $('li#A').css({
+                color: "#FFFFFF"
+            })
+        $('li#D').css({
+            color: "#D90404"
         })
     });
 </script>
@@ -47,12 +56,12 @@ include '../layout/header.php';
 
 <div id="main-rect-fundo">
     <div id="main-rect-frente">
-        <img src="../img/main/produtos/Brigadeiro-de-pacoca/pacoca1.jpg" alt="Paçoca-1" id="pacoca1" class="pacocas" />
-        <img src="../img/main/produtos/Brigadeiro-de-pacoca/pacoca2.jpg" alt="Paçoca-2" id="pacoca2" class="pacocas" />
-        <img src="../img/main/produtos/Brigadeiro-de-pacoca/pacoca3.jpg" alt="Paçoca-3" id="pacoca3" class="pacocas" />
-        <img src="../img/main/produtos/Brigadeiro-de-pacoca/pacoca4.jpg" alt="Paçoca-4" id="pacoca4" class="pacocas" />
-        <img src="../img/main/produtos/Brigadeiro-de-pacoca/pacoca5.jpg" alt="Paçoca-5" id="pacoca5" class="pacocas" />
-        <img src="../img/main/produtos/Brigadeiro-de-pacoca/pacoca6.jpg" alt="Paçoca-6" id="pacoca6" class="pacocas" />
+        <img src="../img/main/produtos/Cazadinho/cazadinho1.jpg" alt="Cajuzinho-1" id="cazadinho1" class="cazadinhos" />
+        <img src="../img/main/produtos/Cazadinho/cazadinho2.jpg" alt="Cajuzinho-2" id="cazadinho2" class="cazadinhos" />
+        <img src="../img/main/produtos/Cazadinho/cazadinho3.jpg" alt="Cajuzinho-3" id="cazadinho3" class="cazadinhos" />
+        <img src="../img/main/produtos/Cazadinho/cazadinho4.jpg" alt="Cajuzinho-4" id="cazadinho4" class="cazadinhos" />
+        <img src="../img/main/produtos/Cazadinho/cazadinho5.jpg" alt="Cajuzinho-5" id="cazadinho5" class="cazadinhos" />
+        <img src="../img/main/produtos/Cazadinho/cazadinho6.jpg" alt="Cajuzinho-6" id="cazadinho6" class="cazadinhos" />
     </div>
 </div>
 
