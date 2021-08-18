@@ -1,6 +1,12 @@
 <?php
 include 'layout/header.php';
 ?>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('a#home').css("border-top", "0.25px solid #D90404").css("border-width", "1px").css("color", "#D90404").css("text-shadow", "0px 2px 4px rgba(0, 0, 0, 0.25)");
+    });
+</script>
 <nav>
     <div id="rect-fundo">
     </div>

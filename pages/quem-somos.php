@@ -14,8 +14,9 @@ include '../layout/header.php';
         }),
         $('main#corpo').css({
             background: "#E5E5E5",
-            height: "2482px"
-        })
+            height: "2682px"
+        }),
+        $('a#quemsomos').css("border-top", "0.25px solid #D90404").css("border-width", "1px").css("color", "#D90404").css("text-shadow", "0px 2px 4px rgba(0, 0, 0, 0.25)");
     });
 </script>
 
@@ -38,8 +39,26 @@ include '../layout/header.php';
 <div id=circle1></div>
 <div id=circle2></div>
 <div id=circle3></div>
+
+<img src="../img/main/quem-somos/equipamentos-para-montar-uma-fabrica-de-doces.png" alt="Fabrica-de-doces" id="fabrica1">
+<img src="../img/main/quem-somos/Fabrica-de-Doces-Caseiros-1200x900.png" alt="Fabrica-de-fazer-doces2" id="fabrica2">
+<img src="../img/main/quem-somos/como-fazer-doces-para-vender-voce-sabe-o-que-precisa.png" alt="Fabrica-de-fazer-doces3" id="fabrica3">
+
+<img src="../img/main/quem-somos/right-quotation-mark.png" alt="Quotation-mark" id="quotation">
+
+<img src="../img/main/quem-somos/Estrelas.png" alt="Estrelas" id="estrelas-quem-somos">
+
+<p id="info-quem-somos">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nemo qui distinctio odit recusandae, ipsa exercitationem fugit sunt asperiores commodi voluptatibus eius nesciunt! Eveniet explicabo, voluptate iste itaque voluptatum eos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, laborum voluptas. Blanditiis quasi corrupti explicabo est. Delectus rem repudiandae veniam sequi impedit, eius illum in iure nisi modi amet atque!
+</p>
+
 <h1 id="pathers">Patrocinadores</h1>
 
+<img src="../img/main/quem-somos/logo-unicesumar.png" alt="Unicesumar-logo" id="logo-unicesumar">
+<img src="../img/main/quem-somos/WALMART-LOGO 1.png" alt="Walmart-logo" id="logo-walmart">
+<img src="../img/main/quem-somos/logo-o-amigao.png" alt="Amigao-logo" id="logo-o-amigao">
+
+<div id="rect-fixed-footer"></div>
 <?php
 include '../layout/footer.php';
 ?>

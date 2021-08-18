@@ -51,14 +51,19 @@ ul {
     list-style: none;
 }
 
+div.rect-nav {
+    
+}
+
 li>div>a {
     text-decoration: none;
-    font-family: 'Shrikhand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 17px;
     color: #8C5042;
+   
 }
 
 li>div#Home {
@@ -69,6 +74,10 @@ li>div#Home {
     bottom: 97.67%;
 }
 
+a#home {
+   
+}
+
 li>div#Produtos {
     position: absolute;
     left: 46.67%;
@@ -77,12 +86,21 @@ li>div#Produtos {
     bottom: 97.67%;
 }
 
+a#prod {
+    display: flex;
+}
+
 li>div#QuemSomos {
     position: absolute;
     left: 58.33%;
     right: 32.56%;
+    width: 86px;
     top: 20%;
     bottom: 97.67%;
+}
+
+a#quemsomos {
+    display: flex;
 }
 
 li>div#Contato {
@@ -93,12 +111,20 @@ li>div#Contato {
     bottom: 97.67%;
 }
 
+a#contact {
+    display: flex;
+}
+
 li>div#Localização {
     position: absolute;
     left: 83.78%;
     right: 7.67%;
     top: 20%;
     bottom: 97.67%;
+}
+
+a#local {
+    display: flex;
 }
 
 nav div#rect-fundo {
@@ -699,8 +725,174 @@ div#circle3 {
     width: 220px;
     height: 220px;
     left: 620px;
-    top: 1165px;
+    top: 1173px;
     background: #904142;
     border: 1px solid #000000;
     box-sizing: border-box;
+}
+
+img#fabrica1 {
+    box-shadow: -8px 2px 4px rgb(0, 0, 0, 30%);
+    border: 1px solid #904142;
+    border-radius: 50%;
+    position: absolute;
+    width: 217px;
+    height: 218px;
+    left: 57px;
+    top: 1173px
+}
+
+img#fabrica2 {
+    box-shadow: -8px 2px 4px rgb(0, 0, 0, 30%);
+    border: 1px solid #904142;
+    border-radius: 50%;
+    position: absolute;
+    width: 218px;
+    height: 218px;
+    left: 339px;
+    top: 1173px
+}
+
+img#fabrica3 {
+    box-shadow: -8px 2px 4px rgb(0, 0, 0, 30%);
+    border: 1px solid #904142;
+    border-radius: 50%;
+    position: absolute;
+    width: 218px;
+    height: 218px;
+    left: 620px;
+    top: 1173px
+}
+
+img#quotation {
+    position: absolute;
+    width: 52.58px;
+    height: 52.58px;
+    left: 424.42px;
+    top: 1518.25px;
+}
+
+img#estrelas-quem-somos {
+    position: absolute;
+    width: 220px;
+    height: 36.67px;
+    left: 340px;
+    top: 1618.03px;
+}
+
+p#info-quem-somos {
+    position: absolute;
+    width: 231px;
+    height: 136px;
+    left: 338px;
+    top: 1685px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+h1#pathers {
+    position: absolute;
+    width: 397px;
+    height: 70px;
+    left: 251px;
+    top: calc(1889px + 89px);
+    font-family: Shrikhand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 70px;
+    /* identical to box height */
+    color: #000000;
+}
+
+img#logo-unicesumar {
+    position: absolute;
+    width: 214px;
+    height: 49px;
+    left: 57px;
+    top: 2235px;
+}
+
+img#logo-walmart {
+    position: absolute;
+    width: 214px;
+    height: 49px;
+    left: 343px;
+    top: 2235px;
+}
+
+img#logo-o-amigao {
+    position: absolute;
+    width: 214px;
+    height: 49px;
+    left: 629px;
+    top: 2235px
+}
+
+div#rect-fixed-footer {
+    border-radius: 0px 58px 0px 0px;
+    position: absolute;
+    width: 328px;
+    height: 58px;
+    left: 0px;
+    top: 2543px;
+    background: #764A61;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a#email {
+    position: relative;
+    left: 170px;
+    top: -4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+a#tel {
+    position: relative;
+    left: 290px;
+    top: -4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+img#gmail {
+    position: absolute;
+    width: 30px;
+    height: 26px;
+    left: -50px;
+    top: -4px;
+}
+
+img#whats {
+    position: absolute;
+    width: 40px;
+    height: 34px;
+    left: -50px;
+    top: -9px;
+}
+
+img#suport {
+    position: absolute;
+    width: 766px;
+    height: 315px;
+    left: 0px;
+    top: 469px;
+    border: 1px solid #873C3D;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 0px 0px 41px 40px;
 }

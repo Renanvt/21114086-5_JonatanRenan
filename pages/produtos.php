@@ -12,6 +12,7 @@ include '../layout/header.php';
             background: "url(../img/header/mulhercomendochocolate.jpg) no-repeat 0px 54px",
             height: "369px",
         })
+        $('a#prod').css("border-top", "0.25px solid #D90404").css("border-width", "1px").css("color", "#D90404").css("text-shadow", "0px 2px 4px rgba(0, 0, 0, 0.25)");
     });
 </script>
 
