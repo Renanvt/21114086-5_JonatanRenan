@@ -1,6 +1,7 @@
 <?php
 
 include '../layout/header.php';
+include '../data/produtos.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -38,7 +39,7 @@ include '../layout/header.php';
                 </li>
                 <li id="D">
                     <a href="https://localhost/mapa/21114086-5_JonatanRenan/pages/cazadinho.php">
-                        Cazadinho
+                        Casadinho
                     </a>
                 </li>
             </ul>
@@ -48,12 +49,154 @@ include '../layout/header.php';
 
 <div id="main-rect-fundo">
     <div id="main-rect-frente">
-        <img src="../img/main/produtos/Brigadeiro-de-pacoca/pacoca1.jpg" alt="Paçoca-1" id="pacoca1" class="pacocas" />
-        <img src="../img/main/produtos/Brigadeiro-de-pacoca/pacoca2.jpg" alt="Paçoca-2" id="pacoca2" class="pacocas" />
-        <img src="../img/main/produtos/Brigadeiro-de-pacoca/pacoca3.jpg" alt="Paçoca-3" id="pacoca3" class="pacocas" />
-        <img src="../img/main/produtos/Brigadeiro-de-pacoca/pacoca4.jpg" alt="Paçoca-4" id="pacoca4" class="pacocas" />
-        <img src="../img/main/produtos/Brigadeiro-de-pacoca/pacoca5.jpg" alt="Paçoca-5" id="pacoca5" class="pacocas" />
-        <img src="../img/main/produtos/Brigadeiro-de-pacoca/pacoca6.jpg" alt="Paçoca-6" id="pacoca6" class="pacocas" />
+        <!-- PRODUTO 1-->
+        <div id="pacoca-group1">
+            <div id='rect-fundo-prod1'></div>
+            <div id='rect-traz-prod1'></div>
+            <div id='rect-frente-prod1'></div>
+            <div id='circle-preco1'></div>
+        </div>
+        <!-- PRODUTO 2-->
+        <div id="pacoca-group2">
+            <div id='rect-fundo-prod2'></div>
+            <div id='rect-traz-prod2'></div>
+            <div id='rect-frente-prod2'></div>
+            <div id='circle-preco2'></div>
+        </div>
+        <!-- PRODUTO 3-->
+        <div id="pacoca-group3">
+            <div id='rect-fundo-prod3'></div>
+            <div id='rect-traz-prod3'></div>
+            <div id='rect-frente-prod3'></div>
+            <div id='circle-preco3'></div>
+        </div>
+        <!-- PRODUTO 4-->
+        <div id="pacoca-group4">
+            <div id='rect-fundo-prod4'></div>
+            <div id='rect-traz-prod4'></div>
+            <div id='rect-frente-prod4'></div>
+            <div id='circle-preco4'></div>
+        </div>
+        <!-- PRODUTO 5-->
+        <div id="pacoca-group5">
+            <div id='rect-fundo-prod5'></div>
+            <div id='rect-traz-prod5'></div>
+            <div id='rect-frente-prod5'></div>
+            <div id='circle-preco5'></div>
+        </div>
+        <!-- PRODUTO 6-->
+        <div id="pacoca-group6">
+            <div id='rect-fundo-prod6'></div>
+            <div id='rect-traz-prod6'></div>
+            <div id='rect-frente-prod6'></div>
+            <div id='circle-preco6'></div>
+        </div>
+
+        <?php
+        //var_dump($prods);
+
+        echo "<img src='../img/main/produtos/Brigadeiro-de-pacoca/pacoca1.jpg' alt='Paçoca-1' id='pacoca1' class='pacocas' />";
+
+
+        if (array_key_exists(1, $prods)) {
+            if (isset($prods[1]['Brigadeiro de paçoca tradicional'])) {
+                echo "<h2 id='Pacoca1'>Brigadeiro de paçoca</br> tradicional</h2>";
+                echo "<span id='pacoca-uni-1'>" . $prods[1]["Brigadeiro de paçoca tradicional"]["Unidades"] . " unidades" . "</span>";
+                echo "<span id='pacoca-preco-1'> R$ " . $prods[1]["Brigadeiro de paçoca tradicional"]["Preço"] . "</span>";
+            } else {
+                echo "<span id='pacoca-error-1'>Produto não encontrado</span>";
+            }
+        } else {
+            echo "<span id='pacoca-error-1'>Produto não encontrado</span>";
+        }
+
+        echo "<img src='../img/main/produtos/Brigadeiro-de-pacoca/pacoca2.jpg' alt='Paçoca-2' id='pacoca2' class='pacocas' />";
+
+        echo "<div id='info-prod-group-1'>";
+        if (array_key_exists(1, $prods)) {
+            if (isset($prods[1]['Brigadeiro de paçoca crocante'])) {
+                echo "<h2 id='Pacoca2'>Brigadeiro de paçoca</br> crocante</h2>";
+                echo "<span id='pacoca-uni-2'>" . $prods[1]["Brigadeiro de paçoca crocante"]["Unidades"] . " unidades" . "</span>";
+                echo "<span id='pacoca-preco-2'> R$ " . $prods[1]["Brigadeiro de paçoca crocante"]["Preço"] . "</span>";
+            } else {
+                echo "<span id='pacoca-error-2'>Produto não encontrado!</span>";
+            }
+        } else {
+            echo "<span id='pacoca-error-2'>Produto não encontrado!</span>";
+        }
+
+        echo "</div>";
+
+        echo "<img src='../img/main/produtos/Brigadeiro-de-pacoca/pacoca3.jpg' alt='Paçoca-3' id='pacoca3' class='pacocas' />";
+
+        echo "<div id='info-prod-group-2'>";
+        if (array_key_exists(1, $prods)) {
+            if (isset($prods[1]['Brigadeiro de paçoca com amendoin'])) {
+                echo "<h2 id='Pacoca3'>Brigadeiro de paçoca </br> com amendoin</h2>";
+                echo "<span id='pacoca-uni-3'>" . $prods[1]["Brigadeiro de paçoca com amendoin"]["Unidades"] . " unidades" . "</span>";
+                echo "<span id='pacoca-preco-3'> R$ " . $prods[1]["Brigadeiro de paçoca com amendoin"]["Preço"] . "</span>";
+            } else {
+                echo "<span id='pacoca-error-3'>Produto não encontrado!</span>";
+            }
+        } else {
+            echo "<span id='pacoca-error-3'>Produto não encontrado!</span>";
+        }
+
+        echo "</div>";
+
+        echo "<img src='../img/main/produtos/Brigadeiro-de-pacoca/pacoca4.jpg' alt='Paçoca-4' id='pacoca4' class='pacocas' />";
+
+        echo "<div id='info-prod-group-3'>";
+        if (array_key_exists(1, $prods)) {
+            if (isset($prods[1]['Brigadeiro de paçoca macio'])) {
+                echo "<h2 id='Pacoca4'>Brigadeiro de paçoca </br> macio</h2>";
+                echo "<span id='pacoca-uni-4'>" . $prods[1]["Brigadeiro de paçoca macio"]["Unidades"] . " unidades" . "</span>";
+                echo "<span id='pacoca-preco-4'> R$ " . $prods[1]["Brigadeiro de paçoca macio"]["Preço"] . "</span>";
+            } else {
+                echo "<span id='pacoca-error-4'>Produto não encontrado!</span>";
+            }
+        } else {
+            echo "<span id='pacoca-error-4'>Produto não encontrado!</span>";
+        }
+
+        echo "</div>";
+
+        echo "<img src='../img/main/produtos/Brigadeiro-de-pacoca/pacoca5.jpg' alt='Paçoca-5' id='pacoca5' class='pacocas' />";
+
+        echo "<div id='info-prod-group-4'>";
+        if (array_key_exists(1, $prods)) {
+            if (isset($prods[1]['Pudim de Brigadeiro de paçoca'])) {
+                echo "<h2 id='Pacoca5'>Pudim de Brigadeiro </br> de paçoca</h2>";
+                echo "<span id='pacoca-uni-5'>" . $prods[1]["Pudim de Brigadeiro de paçoca"]["Unidades"] . " unidades" . "</span>";
+                echo "<span id='pacoca-preco-5'> R$ " . $prods[1]["Pudim de Brigadeiro de paçoca"]["Preço"] . "</span>";
+            } else {
+                echo "<span id='pacoca-error-5'>Produto não encontrado!</span>";
+            }
+        } else {
+            echo "<span id='pacoca-error-5'>Produto não encontrado!</span>";
+        }
+
+        echo "</div>";
+
+        echo "<img src='../img/main/produtos/Brigadeiro-de-pacoca/pacoca6.jpg' alt='Paçoca-6' id='pacoca6' class='pacocas' />";
+
+        echo "<div id='info-prod-group-5'>";
+        if (array_key_exists(1, $prods)) {
+            if (isset($prods[1]['Brigadeiro de paçoca no pote'])) {
+                echo "<h2 id='Pacoca6'>Brigadeiro de paçoca</br> no pote</h2>";
+                echo "<span id='pacoca-uni-6'>" . $prods[1]["Brigadeiro de paçoca no pote"]["Unidades"] . " unidades" . "</span>";
+                echo "<span id='pacoca-preco-6'> R$ " . $prods[1]["Brigadeiro de paçoca no pote"]["Preço"] . "</span>";
+            } else {
+                echo "<span id='pacoca-error-5'>Produto não encontrado!</span>";
+            }
+        } else {
+            echo "<span id='pacoca-error-5'>Produto não encontrado!</span>";
+        }
+
+        echo "</div>";
+
+        ?>
+
     </div>
 </div>
 

@@ -9,15 +9,15 @@ include '../layout/header.php';
 <script language="javascript">
     $(document).ready(function() {
         $('header#rect-main').css({
-            background: "url(../img/header/mulhercomendochocolate.jpg) no-repeat 0px 54px",
-            height: "369px",
-        }),
-        $('li#A').css({
-            color: "#FFFFFF"
-        })
-        $('li#C').css({
-                color: "#D90404"
+                background: "url(../img/header/mulhercomendochocolate.jpg) no-repeat 0px 54px",
+                height: "369px",
+            }),
+            $('li#A').css({
+                color: "#FFFFFF"
             })
+        $('li#C').css({
+            color: "#D90404"
+        })
         $('li#B').css({
             color: "#FFFFFF"
         })
@@ -46,7 +46,7 @@ include '../layout/header.php';
                 </li>
                 <li id="D">
                     <a href="https://localhost/mapa/21114086-5_JonatanRenan/pages/cazadinho.php">
-                        Cazadinho
+                        Casadinho
                     </a>
                 </li>
             </ul>
@@ -56,6 +56,49 @@ include '../layout/header.php';
 
 <div id="main-rect-fundo">
     <div id="main-rect-frente">
+        <!-- PRODUTO 1-->
+        <div id="cajuzinho-group1">
+            <div id='rect-fundo-prod1'></div>
+            <div id='rect-traz-prod1'></div>
+            <div id='rect-frente-prod1'></div>
+            <div id='circle-preco1'></div>
+        </div>
+        <!-- PRODUTO 2-->
+        <div id="cajuzinho-group2">
+            <div id='rect-fundo-prod2'></div>
+            <div id='rect-traz-prod2'></div>
+            <div id='rect-frente-prod2'></div>
+            <div id='circle-preco2'></div>
+        </div>
+        <!-- PRODUTO 3-->
+        <div id="cajuzinho-group3">
+            <div id='rect-fundo-prod3'></div>
+            <div id='rect-traz-prod3'></div>
+            <div id='rect-frente-prod3'></div>
+            <div id='circle-preco3'></div>
+        </div>
+        <!-- PRODUTO 4-->
+        <div id="cajuzinho-group4">
+            <div id='rect-fundo-prod4'></div>
+            <div id='rect-traz-prod4'></div>
+            <div id='rect-frente-prod4'></div>
+            <div id='circle-preco4'></div>
+        </div>
+        <!-- PRODUTO 5-->
+        <div id="cajuzinho-group5">
+            <div id='rect-fundo-prod5'></div>
+            <div id='rect-traz-prod5'></div>
+            <div id='rect-frente-prod5'></div>
+            <div id='circle-preco5'></div>
+        </div>
+        <!-- PRODUTO 6-->
+        <div id="cajuzinho-group6">
+            <div id='rect-fundo-prod6'></div>
+            <div id='rect-traz-prod6'></div>
+            <div id='rect-frente-prod6'></div>
+            <div id='circle-preco6'></div>
+        </div>
+
         <img src="../img/main/produtos/Cajuzinho-Vegano/Cajuzinho1.jpg" alt="Cajuzinho-1" id="cajuzinho1" class="cajuzinhos" />
         <img src="../img/main/produtos/Cajuzinho-Vegano/Cajuzinho2.jpg" alt="Cajuzinho-2" id="cajuzinho2" class="cajuzinhos" />
         <img src="../img/main/produtos/Cajuzinho-Vegano/Cajuzinho3.jpg" alt="Cajuzinho-3" id="cajuzinho3" class="cajuzinhos" />
