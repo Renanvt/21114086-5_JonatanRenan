@@ -260,7 +260,7 @@ section>p {
     color: #000000;
 }
 
-section>button {
+section>a>button {
     position: relative;
     width: 78px;
     height: 30.43px;
@@ -270,8 +270,11 @@ section>button {
     border-radius: 14px;
     border: 1px solid #8C5042;
 }
+section>a>button:hover{
+    cursor: pointer;
+}
 
-section>button>span {
+section>a>button>span {
     font-family: Shrikhand;
     font-style: normal;
     font-weight: normal;
@@ -652,7 +655,7 @@ p#p-history {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 20px;
     color: #FFFFFF;
 }
 
@@ -680,7 +683,7 @@ p#p-local {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 20px;
     color: #FFFFFF;
 }
 
@@ -784,10 +787,12 @@ p#info-quem-somos {
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 0px;
     text-align: center;
+    line-height: 30px;
     color: #000000;
+
 }
 
 h1#pathers {
@@ -1197,7 +1202,7 @@ div#pacoca-group6{
     left:224px;
     top:356px;
 }
-h2#Pacoca1 {
+h2#Produto1 {
     position: absolute;
     display: inline;
     top: 186px;
@@ -1212,7 +1217,7 @@ h2#Pacoca1 {
     color: #0d0d0d;
 }
 
-span#pacoca-uni-1{
+span#prod-uni-1{
     position: absolute;
     display: inline;
     top: 252px;
@@ -1223,7 +1228,7 @@ span#pacoca-uni-1{
     color: #0d0d0d;
 }
 
-span#pacoca-preco-1 {
+span#prod-preco-1 {
     position: absolute;
     display: inline;
     top: 316px;
@@ -1234,7 +1239,7 @@ span#pacoca-preco-1 {
     font-style: bolder;
 }
 
-span#pacoca-error-1 {
+span#prod-error-1 {
     position:absolute;
     top: 208px;
     left: 68px;
@@ -1250,7 +1255,7 @@ div#info-prod-group-1{
     top: 0px;
     left: 230px;
 }
-h2#Pacoca2 {
+h2#Produto2 {
     position: absolute;
     display: inline;
     top: 186px;
@@ -1266,7 +1271,7 @@ h2#Pacoca2 {
     text-shadow:1px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-span#pacoca-uni-2{
+span#prod-uni-2{
     position: absolute;
     display: inline;
     top: 252px;
@@ -1276,7 +1281,7 @@ span#pacoca-uni-2{
     color: #0d0d0d;
 }
 
-span#pacoca-preco-2 {
+span#prod-preco-2 {
     position: absolute;
     display: inline;
     top: 316px;
@@ -1287,7 +1292,7 @@ span#pacoca-preco-2 {
     font-style: bolder;
 }
 
-span#pacoca-error-2 {
+span#prod-error-2 {
     position:absolute;
     top: 208px;
     left: 57px;
@@ -1305,7 +1310,7 @@ div#info-prod-group-2{
     top: 0px;
     left: 453px;
 }
-h2#Pacoca3 {
+h2#Produto3 {
     position: absolute;
     display: inline;
     top: 186px;
@@ -1321,7 +1326,7 @@ h2#Pacoca3 {
     text-shadow:1px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-span#pacoca-uni-3{
+span#prod-uni-3{
     position: absolute;
     display: inline;
     top: 252px;
@@ -1331,7 +1336,7 @@ span#pacoca-uni-3{
     color: #0d0d0d;
 }
 
-span#pacoca-preco-3 {
+span#prod-preco-3 {
     position: absolute;
     display: inline;
     top: 316px;
@@ -1342,7 +1347,7 @@ span#pacoca-preco-3 {
     font-style: bolder;
 }
 
-span#pacoca-error-3 {
+span#prod-error-3 {
     position:absolute;
     top: 208px;
     left: 57px;
@@ -1360,7 +1365,7 @@ div#info-prod-group-3{
     top: 357px;
     left: 5px;
 }
-h2#Pacoca4 {
+h2#Produto4 {
     position: absolute;
     display: inline;
     top: 186px;
@@ -1376,7 +1381,7 @@ h2#Pacoca4 {
     text-shadow:1px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-span#pacoca-uni-4{
+span#prod-uni-4{
     position: absolute;
     display: inline;
     top: 252px;
@@ -1386,7 +1391,7 @@ span#pacoca-uni-4{
     color: #0d0d0d;
 }
 
-span#pacoca-preco-4 {
+span#prod-preco-4 {
     position: absolute;
     display: inline;
     top: 316px;
@@ -1397,7 +1402,7 @@ span#pacoca-preco-4 {
     font-style: bolder;
 }
 
-span#pacoca-error-4 {
+span#prod-error-4 {
     position:absolute;
     top: 208px;
     left: 57px;
@@ -1415,7 +1420,7 @@ div#info-prod-group-4{
     top: 357px;
     left: 231px;
 }
-h2#Pacoca5 {
+h2#Produto5 {
     position: absolute;
     display: inline;
     top: 186px;
@@ -1431,7 +1436,7 @@ h2#Pacoca5 {
     text-shadow:1px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-span#pacoca-uni-5{
+span#prod-uni-5{
     position: absolute;
     display: inline;
     top: 252px;
@@ -1441,7 +1446,7 @@ span#pacoca-uni-5{
     color: #0d0d0d;
 }
 
-span#pacoca-preco-5 {
+span#prod-preco-5 {
     position: absolute;
     display: inline;
     top: 316px;
@@ -1452,7 +1457,7 @@ span#pacoca-preco-5 {
     font-style: bolder;
 }
 
-span#pacoca-error-5 {
+span#prod-error-5 {
     position:absolute;
     top: 208px;
     left: 57px;
@@ -1470,7 +1475,7 @@ div#info-prod-group-5{
     top: 357px;
     left: 455px;
 }
-h2#Pacoca6 {
+h2#Produto6 {
     position: absolute;
     display: inline;
     top: 186px;
@@ -1486,7 +1491,7 @@ h2#Pacoca6 {
     text-shadow:1px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-span#pacoca-uni-6{
+span#prod-uni-6{
     position: absolute;
     display: inline;
     top: 252px;
@@ -1496,7 +1501,7 @@ span#pacoca-uni-6{
     color: #0d0d0d;
 }
 
-span#pacoca-preco-6 {
+span#prod-preco-6 {
     position: absolute;
     display: inline;
     top: 316px;
@@ -1507,7 +1512,7 @@ span#pacoca-preco-6 {
     font-style: bolder;
 }
 
-span#pacoca-error-6 {
+span#prod-error-6 {
     position:absolute;
     top: 208px;
     left: 57px;

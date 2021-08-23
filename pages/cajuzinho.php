@@ -1,6 +1,7 @@
 <?php
 
 include '../layout/header.php';
+include '../data/produtos.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -14,13 +15,67 @@ include '../layout/header.php';
             }),
             $('li#A').css({
                 color: "#FFFFFF"
+            }),
+            $('li#C').css({
+                color: "#D90404"
+            }),
+            $('li#B').css({
+                color: "#FFFFFF"
+            }),
+            $('div#rect-frente-prod1').css({
+                background: "rgb(133 104 104)"
+            }),
+            $('div#rect-frente-prod2').css({
+                background: "rgb(133 104 104)"
+            }),
+            $('div#rect-frente-prod3').css({
+                background: "rgb(133 104 104)"
+            }),
+            $('div#rect-frente-prod4').css({
+                background: "rgb(133 104 104)"
+            }),
+            $('div#rect-frente-prod5').css({
+                background: "rgb(133 104 104)"
+            }),
+            $('div#rect-frente-prod6').css({
+                background: "rgb(133 104 104)"
+            }),
+            $('h2#Produto1').css({
+                color: "#FFFFFF"
+            }),
+            $('h2#Produto2').css({
+                color: "#FFFFFF"
+            }),
+            $('h2#Produto3').css({
+                color: "#FFFFFF"
+            }),
+            $('h2#Produto4').css({
+                color: "#FFFFFF"
+            }),
+            $('h2#Produto5').css({
+                color: "#FFFFFF"
+            }),
+            $('h2#Produto6').css({
+                color: "#FFFFFF"
+            }),
+            $('h2#Produto3').css({
+                left: "78px"
+            }),
+            $('span#prod-uni-3').css({
+                left: "120px"
+            }),
+            $('span#prod-preco-3').css({
+                left: "130px"
+            }),
+            $('h2#Produto6').css({
+                left: "78px"
+            }),
+            $('span#prod-uni-6').css({
+                left: "120px"
+            }),
+            $('span#prod-preco-6').css({
+                left: "130px"
             })
-        $('li#C').css({
-            color: "#D90404"
-        })
-        $('li#B').css({
-            color: "#FFFFFF"
-        })
     });
 </script>
 
@@ -100,11 +155,103 @@ include '../layout/header.php';
         </div>
 
         <img src="../img/main/produtos/Cajuzinho-Vegano/Cajuzinho1.jpg" alt="Cajuzinho-1" id="cajuzinho1" class="cajuzinhos" />
+        <?php
+        if (array_key_exists(3, $prods)) {
+            if (isset($prods[3]['Cajuzinho tradicional'])) {
+                echo "<h2 id='Produto1'>Cajuzinho tradicional</h2>";
+                echo "<span id='prod-uni-1'>" . $prods[3]["Cajuzinho tradicional"]["Unidades"] . " unidades" . "</span>";
+                echo "<span id='prod-preco-1'> R$ " . $prods[3]["Cajuzinho tradicional"]["Preço"] . "</span>";
+            } else {
+                echo "<span id='prod-error-1'>Produto não encontrado</span>";
+            }
+        } else {
+            echo "<span id='prod-error-1'>Produto não encontrado</span>";
+        }
+        ?>
         <img src="../img/main/produtos/Cajuzinho-Vegano/Cajuzinho2.jpg" alt="Cajuzinho-2" id="cajuzinho2" class="cajuzinhos" />
+        <div id='info-prod-group-1'>
+            <?php
+            if (array_key_exists(3, $prods)) {
+                if (isset($prods[3]['Cajuzinho que não vai ao fogo'])) {
+                    echo "<h2 id='Produto2'>Beijinho tradicional</h2>";
+                    echo "<span id='prod-uni-2'>" . $prods[3]["Cajuzinho que não vai ao fogo"]["Unidades"] . " unidades" . "</span>";
+                    echo "<span id='prod-preco-2'> R$ " . $prods[3]["Cajuzinho que não vai ao fogo"]["Preço"] . "</span>";
+                } else {
+                    echo "<span id='prod-error-2'>Produto não encontrado</span>";
+                }
+            } else {
+                echo "<span id='prod-error-2'>Produto não encontrado</span>";
+            }
+            ?>
+        </div>
+
         <img src="../img/main/produtos/Cajuzinho-Vegano/Cajuzinho3.jpg" alt="Cajuzinho-3" id="cajuzinho3" class="cajuzinhos" />
+
+        <div id='info-prod-group-2'>
+            <?php
+            if (array_key_exists(3, $prods)) {
+                if (isset($prods[3]['Cajuzinho de pasta de amendoim'])) {
+                    echo "<h2 id='Produto3'>Cajuzinho de pasta de amendoim</h2>";
+                    echo "<span id='prod-uni-3'>" . $prods[3]["Cajuzinho de pasta de amendoim"]["Unidades"] . " unidades" . "</span>";
+                    echo "<span id='prod-preco-3'> R$ " . $prods[3]["Cajuzinho de pasta de amendoim"]["Preço"] . "</span>";
+                } else {
+                    echo "<span id='prod-error-3'>Produto não encontrado</span>";
+                }
+            } else {
+                echo "<span id='prod-error-3'>Produto não encontrado</span>";
+            }
+            ?>
+        </div>
+        
         <img src="../img/main/produtos/Cajuzinho-Vegano/Cajuzinho4.jpg" alt="Cajuzinho-4" id="cajuzinho4" class="cajuzinhos" />
+        <div id='info-prod-group-3'>
+            <?php
+            if (array_key_exists(3, $prods)) {
+                if (isset($prods[3]['Cajuzinho de colher e de micro-ondas'])) {
+                    echo "<h2 id='Produto4'>Cajuzinho de colher e de micro-ondas</h2>";
+                    echo "<span id='prod-uni-4'>" . $prods[3]["Cajuzinho de colher e de micro-ondas"]["Unidades"] . " unidades" . "</span>";
+                    echo "<span id='prod-preco-4'> R$ " . $prods[3]["Cajuzinho de colher e de micro-ondas"]["Preço"] . "</span>";
+                } else {
+                    echo "<span id='prod-error-4'>Produto não encontrado</span>";
+                }
+            } else {
+                echo "<span id='prod-error-4'>Produto não encontrado</span>";
+            }
+            ?>
+        </div>
+
         <img src="../img/main/produtos/Cajuzinho-Vegano/Cajuzinho5.jpg" alt="Cajuzinho-5" id="cajuzinho5" class="cajuzinhos" />
+        <div id='info-prod-group-4'>
+            <?php
+            if (array_key_exists(3, $prods)) {
+                if (isset($prods[3]['Cajuzinho fit'])) {
+                    echo "<h2 id='Produto5'>Cajuzinho fit</h2>";
+                    echo "<span id='prod-uni-5'>" . $prods[3]["Cajuzinho fit"]["Unidades"] . " unidades" . "</span>";
+                    echo "<span id='prod-preco-5'> R$ " . $prods[3]["Cajuzinho fit"]["Preço"] . "</span>";
+                } else {
+                    echo "<span id='prod-error-5'>Produto não encontrado</span>";
+                }
+            } else {
+                echo "<span id='prod-error-5'>Produto não encontrado</span>";
+            }
+            ?>
+        </div>
         <img src="../img/main/produtos/Cajuzinho-Vegano/Cajuzinho6.jpg" alt="Cajuzinho-6" id="cajuzinho6" class="cajuzinhos" />
+        <div id='info-prod-group-5'>
+            <?php
+            if (array_key_exists(3, $prods)) {
+                if (isset($prods[3]['Cajuzinho com whey'])) {
+                    echo "<h2 id='Produto6'>Cajuzinho com whey</h2>";
+                    echo "<span id='prod-uni-6'>" . $prods[3]["Cajuzinho com whey"]["Unidades"] . " unidades" . "</span>";
+                    echo "<span id='prod-preco-6'> R$ " . $prods[3]["Cajuzinho com whey"]["Preço"] . "</span>";
+                } else {
+                    echo "<span id='prod-error-6'>Produto não encontrado</span>";
+                }
+            } else {
+                echo "<span id='prod-error-6'>Produto não encontrado</span>";
+            }
+            ?>
+        </div>
     </div>
 </div>
 

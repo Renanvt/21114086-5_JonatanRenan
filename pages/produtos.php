@@ -100,11 +100,11 @@ include '../data/produtos.php';
 
         if (array_key_exists(1, $prods)) {
             if (isset($prods[1]['Brigadeiro de paçoca tradicional'])) {
-                echo "<h2 id='Pacoca1'>Brigadeiro de paçoca</br> tradicional</h2>";
-                echo "<span id='pacoca-uni-1'>" . $prods[1]["Brigadeiro de paçoca tradicional"]["Unidades"] . " unidades" . "</span>";
-                echo "<span id='pacoca-preco-1'> R$ " . $prods[1]["Brigadeiro de paçoca tradicional"]["Preço"] . "</span>";
+                echo "<h2 id='Produto1'>Brigadeiro de paçoca</br> tradicional</h2>";
+                echo "<span id='prod-uni-1'>" . $prods[1]["Brigadeiro de paçoca tradicional"]["Unidades"] . " unidades" . "</span>";
+                echo "<span id='prod-preco-1'> R$ " . $prods[1]["Brigadeiro de paçoca tradicional"]["Preço"] . "</span>";
             } else {
-                echo "<span id='pacoca-error-1'>Produto não encontrado</span>";
+                echo "<span id='prod-error-1'>Produto não encontrado</span>";
             }
         } else {
             echo "<span id='pacoca-error-1'>Produto não encontrado</span>";
@@ -115,14 +115,14 @@ include '../data/produtos.php';
         echo "<div id='info-prod-group-1'>";
         if (array_key_exists(1, $prods)) {
             if (isset($prods[1]['Brigadeiro de paçoca crocante'])) {
-                echo "<h2 id='Pacoca2'>Brigadeiro de paçoca</br> crocante</h2>";
-                echo "<span id='pacoca-uni-2'>" . $prods[1]["Brigadeiro de paçoca crocante"]["Unidades"] . " unidades" . "</span>";
-                echo "<span id='pacoca-preco-2'> R$ " . $prods[1]["Brigadeiro de paçoca crocante"]["Preço"] . "</span>";
+                echo "<h2 id='Produto2'>Brigadeiro de paçoca</br> crocante</h2>";
+                echo "<span id='prod-uni-2'>" . $prods[1]["Brigadeiro de paçoca crocante"]["Unidades"] . " unidades" . "</span>";
+                echo "<span id='prod-preco-2'> R$ " . $prods[1]["Brigadeiro de paçoca crocante"]["Preço"] . "</span>";
             } else {
-                echo "<span id='pacoca-error-2'>Produto não encontrado!</span>";
+                echo "<span id='prod-error-2'>Produto não encontrado!</span>";
             }
         } else {
-            echo "<span id='pacoca-error-2'>Produto não encontrado!</span>";
+            echo "<span id='prod-error-2'>Produto não encontrado!</span>";
         }
 
         echo "</div>";
@@ -132,14 +132,14 @@ include '../data/produtos.php';
         echo "<div id='info-prod-group-2'>";
         if (array_key_exists(1, $prods)) {
             if (isset($prods[1]['Brigadeiro de paçoca com amendoin'])) {
-                echo "<h2 id='Pacoca3'>Brigadeiro de paçoca </br> com amendoin</h2>";
-                echo "<span id='pacoca-uni-3'>" . $prods[1]["Brigadeiro de paçoca com amendoin"]["Unidades"] . " unidades" . "</span>";
-                echo "<span id='pacoca-preco-3'> R$ " . $prods[1]["Brigadeiro de paçoca com amendoin"]["Preço"] . "</span>";
+                echo "<h2 id='Produto3'>Brigadeiro de paçoca </br> com amendoin</h2>";
+                echo "<span id='prod-uni-3'>" . $prods[1]["Brigadeiro de paçoca com amendoin"]["Unidades"] . " unidades" . "</span>";
+                echo "<span id='prod-preco-3'> R$ " . $prods[1]["Brigadeiro de paçoca com amendoin"]["Preço"] . "</span>";
             } else {
-                echo "<span id='pacoca-error-3'>Produto não encontrado!</span>";
+                echo "<span id='prod-error-3'>Produto não encontrado!</span>";
             }
         } else {
-            echo "<span id='pacoca-error-3'>Produto não encontrado!</span>";
+            echo "<span id='prod-error-3'>Produto não encontrado!</span>";
         }
 
         echo "</div>";
@@ -149,14 +149,14 @@ include '../data/produtos.php';
         echo "<div id='info-prod-group-3'>";
         if (array_key_exists(1, $prods)) {
             if (isset($prods[1]['Brigadeiro de paçoca macio'])) {
-                echo "<h2 id='Pacoca4'>Brigadeiro de paçoca </br> macio</h2>";
-                echo "<span id='pacoca-uni-4'>" . $prods[1]["Brigadeiro de paçoca macio"]["Unidades"] . " unidades" . "</span>";
-                echo "<span id='pacoca-preco-4'> R$ " . $prods[1]["Brigadeiro de paçoca macio"]["Preço"] . "</span>";
+                echo "<h2 id='Produto4'>Brigadeiro de paçoca </br> macio</h2>";
+                echo "<span id='prod-uni-4'>" . $prods[1]["Brigadeiro de paçoca macio"]["Unidades"] . " unidades" . "</span>";
+                echo "<span id='prod-preco-4'> R$ " . $prods[1]["Brigadeiro de paçoca macio"]["Preço"] . "</span>";
             } else {
-                echo "<span id='pacoca-error-4'>Produto não encontrado!</span>";
+                echo "<span id='prod-error-4'>Produto não encontrado!</span>";
             }
         } else {
-            echo "<span id='pacoca-error-4'>Produto não encontrado!</span>";
+            echo "<span id='prod-error-4'>Produto não encontrado!</span>";
         }
 
         echo "</div>";
@@ -166,14 +166,14 @@ include '../data/produtos.php';
         echo "<div id='info-prod-group-4'>";
         if (array_key_exists(1, $prods)) {
             if (isset($prods[1]['Pudim de Brigadeiro de paçoca'])) {
-                echo "<h2 id='Pacoca5'>Pudim de Brigadeiro </br> de paçoca</h2>";
-                echo "<span id='pacoca-uni-5'>" . $prods[1]["Pudim de Brigadeiro de paçoca"]["Unidades"] . " unidades" . "</span>";
-                echo "<span id='pacoca-preco-5'> R$ " . $prods[1]["Pudim de Brigadeiro de paçoca"]["Preço"] . "</span>";
+                echo "<h2 id='Produto5'>Pudim de Brigadeiro </br> de paçoca</h2>";
+                echo "<span id='prod-uni-5'>" . $prods[1]["Pudim de Brigadeiro de paçoca"]["Unidades"] . " unidades" . "</span>";
+                echo "<span id='prod-preco-5'> R$ " . $prods[1]["Pudim de Brigadeiro de paçoca"]["Preço"] . "</span>";
             } else {
-                echo "<span id='pacoca-error-5'>Produto não encontrado!</span>";
+                echo "<span id='prod-error-5'>Produto não encontrado!</span>";
             }
         } else {
-            echo "<span id='pacoca-error-5'>Produto não encontrado!</span>";
+            echo "<span id='prod-error-5'>Produto não encontrado!</span>";
         }
 
         echo "</div>";
@@ -183,14 +183,14 @@ include '../data/produtos.php';
         echo "<div id='info-prod-group-5'>";
         if (array_key_exists(1, $prods)) {
             if (isset($prods[1]['Brigadeiro de paçoca no pote'])) {
-                echo "<h2 id='Pacoca6'>Brigadeiro de paçoca</br> no pote</h2>";
-                echo "<span id='pacoca-uni-6'>" . $prods[1]["Brigadeiro de paçoca no pote"]["Unidades"] . " unidades" . "</span>";
-                echo "<span id='pacoca-preco-6'> R$ " . $prods[1]["Brigadeiro de paçoca no pote"]["Preço"] . "</span>";
+                echo "<h2 id='Produto6'>Brigadeiro de paçoca</br> no pote</h2>";
+                echo "<span id='prod-uni-6'>" . $prods[1]["Brigadeiro de paçoca no pote"]["Unidades"] . " unidades" . "</span>";
+                echo "<span id='prod-preco-6'> R$ " . $prods[1]["Brigadeiro de paçoca no pote"]["Preço"] . "</span>";
             } else {
-                echo "<span id='pacoca-error-5'>Produto não encontrado!</span>";
+                echo "<span id='prod-error-5'>Produto não encontrado!</span>";
             }
         } else {
-            echo "<span id='pacoca-error-5'>Produto não encontrado!</span>";
+            echo "<span id='prod-error-5'>Produto não encontrado!</span>";
         }
 
         echo "</div>";

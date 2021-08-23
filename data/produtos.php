@@ -43,7 +43,7 @@ $prods = array(
             "Unidades" => "25",
             "Preço" => "25,00"
         ),
-        "Beijinho de arroz com nutela " => array(
+        "Beijinho de arroz com nutela" => array(
             "Unidades" => "25",
             "Preço" => "23,00"
         ),
@@ -69,7 +69,7 @@ $prods = array(
             "Unidades" => "25",
             "Preço" => "35,00"
         ),
-        "Cajuzinho fit " => array(
+        "Cajuzinho fit" => array(
             "Unidades" => "25",
             "Preço" => "23,00"
         ),
@@ -95,7 +95,7 @@ $prods = array(
             "Unidades" => "25",
             "Preço" => "26,00"
         ),
-        "Casadinho de leite ninho " => array(
+        "Casadinho de leite ninho" => array(
             "Unidades" => "25",
             "Preço" => "23,00"
         ),
