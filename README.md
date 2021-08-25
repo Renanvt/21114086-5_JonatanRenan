@@ -1,3 +1,11 @@
+# Contato
+
+### Linkedin 
+https://www.linkedin.com/in/jonatan-renan/
+### RA
+21114086-5
+
+
 # Referências:
 
 https://www.google.com/search?q=eating%20chocolate&tbm=isch&hl=en&chips=q:eating%20chocolate%2Cg_1:lip:I9ygzqpo4Z4%3D&tbs=il:cl&sa=X&ved=0CAAQ1vwEahcKEwigvqrkyZvyAhUAAAAAHQAAAAAQCA&biw=1833&bih=949#imgrc=CtslMDdhncOESM
@@ -70,11 +78,3 @@ http://sandresolda.com.br/contate-nos/
 
 ### Header - lista de produtos
 http://blogvidaleve.com.br/deu-aquela-vontade-de-comer-doce-e-agora/
-
-
-# Contato
-
-### Linkedin 
-https://www.linkedin.com/in/jonatan-renan/
-### RA
-21114086-5
