@@ -8,7 +8,9 @@ $about = array(
     que querem ter o <strong>prazer</strong> de degustar
     brigadeiros <strong>deliciosos</strong> e de <strong>qualidade</strong>",
     "Onde estamos localizados" => "Estamos localizados no município de <strong>Maringa</strong> do estado de Curitiba - Paraná",
-    "Diferencial" => "A Lucky sugar se preocupa com seus clientes, de modo que os doces são <strong>embalados</strong> em plásticos resistentes a <strong>chuva</strong> e ao <strong>calor </strong>chegando em suas casas em perfeitas condições"
+    "Diferencial" => "A Lucky sugar se preocupa com seus clientes, de modo que os doces são <strong>embalados</strong> em plásticos resistentes a <strong>chuva</strong> e ao <strong>calor </strong>chegando em suas casas em perfeitas condições",
+    "Contato" => "(21) 97424-8505",
+    "Email" => "lucksugar@gmail.com"
 );
 
 

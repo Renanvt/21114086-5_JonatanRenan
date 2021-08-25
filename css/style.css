@@ -235,7 +235,7 @@ section>header>h1 {
     width: 329px;
     height: 35px;
     left: 62.2px;
-    top: 3.40px;
+    top: 33.4px;
     font-family: Shrikhand, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -248,9 +248,9 @@ section>header>h1 {
 section>p {
     position: relative;
     width: 154px;
-    height: 136px;
+    height: 90px;
     left: 62.2px;
-    top: -4px;
+    top: 36px;
     bottom: 3px;
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -262,6 +262,7 @@ section>p {
 
 section>a>button {
     position: relative;
+    top: 40px;
     width: 78px;
     height: 30.43px;
     left: 62.2px;
@@ -270,7 +271,8 @@ section>a>button {
     border-radius: 14px;
     border: 1px solid #8C5042;
 }
-section>a>button:hover{
+
+section>a>button:hover {
     cursor: pointer;
 }
 
@@ -296,7 +298,7 @@ section>div.amostras {
 
 section>div>img#brigadeiro-2 {
     position: absolute;
-    top: -185px;
+    top: -135px;
     border: 1px solid #8C5042;
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -304,7 +306,7 @@ section>div>img#brigadeiro-2 {
 
 section>div>img#casadinho {
     position: absolute;
-    top: -185px;
+    top: -54px;
     border: 1px solid #8C5042;
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -312,7 +314,7 @@ section>div>img#casadinho {
 
 section>div>img#cajuzinho {
     position: absolute;
-    top: -185px;
+    top: 85px;
     border: 1px solid #8C5042;
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -792,7 +794,6 @@ p#info-quem-somos {
     text-align: center;
     line-height: 30px;
     color: #000000;
-
 }
 
 h1#pathers {
@@ -914,7 +915,7 @@ div#rect-fundo-prod1 {
     height: 113px;
     top: 235px;
     left: 59px;
-    background-image: linear-gradient(to top, #873C3D,#ff000061 )
+    background-image: linear-gradient(to top, #873C3D, #ff000061)
 }
 
 div#rect-frente-prod1 {
@@ -960,7 +961,7 @@ div#rect-fundo-prod2 {
     height: 112px;
     top: 236px;
     left: 284px;
-    background-image: linear-gradient(to top, #873C3D,#ff000061 )
+    background-image: linear-gradient(to top, #873C3D, #ff000061)
 }
 
 div#rect-frente-prod2 {
@@ -1006,7 +1007,7 @@ div#rect-fundo-prod3 {
     height: 112px;
     top: 236px;
     left: 284px;
-    background-image: linear-gradient(to top, #873C3D,#ff000061 )
+    background-image: linear-gradient(to top, #873C3D, #ff000061)
 }
 
 div#rect-frente-prod3 {
@@ -1052,7 +1053,7 @@ div#rect-fundo-prod4 {
     height: 112px;
     top: 236px;
     left: 284px;
-    background-image: linear-gradient(to top, #873C3D,#ff000061 )
+    background-image: linear-gradient(to top, #873C3D, #ff000061)
 }
 
 div#rect-frente-prod4 {
@@ -1098,7 +1099,7 @@ div#rect-fundo-prod5 {
     height: 112px;
     top: 236px;
     left: 284px;
-    background-image: linear-gradient(to top, #873C3D,#ff000061 )
+    background-image: linear-gradient(to top, #873C3D, #ff000061)
 }
 
 div#rect-frente-prod5 {
@@ -1144,7 +1145,7 @@ div#rect-fundo-prod6 {
     height: 112px;
     top: 236px;
     left: 284px;
-    background-image: linear-gradient(to top, #873C3D,#ff000061 )
+    background-image: linear-gradient(to top, #873C3D, #ff000061)
 }
 
 div#rect-frente-prod6 {
@@ -1172,36 +1173,43 @@ div#circle-preco6 {
     top: 285px;
     left: 345px;
 }
-div#pacoca-group1{
+
+div#pacoca-group1 {
     position: absolute;
-    left:0;
-    top:0px;
+    left: 0;
+    top: 0px;
 }
-div#pacoca-group2{
+
+div#pacoca-group2 {
     position: absolute;
-    left:0px;
-    top:0px;
+    left: 0px;
+    top: 0px;
 }
-div#pacoca-group3{
+
+div#pacoca-group3 {
     position: absolute;
-    left:224px;
-    top:0px;
+    left: 224px;
+    top: 0px;
 }
-div#pacoca-group4{
+
+div#pacoca-group4 {
     position: absolute;
-    left:-225px;
-    top:356px;
+    left: -225px;
+    top: 356px;
 }
-div#pacoca-group5{
+
+div#pacoca-group5 {
     position: absolute;
-    left:0px;
-    top:356px;
+    left: 0px;
+    top: 356px;
 }
-div#pacoca-group6{
+
+div#pacoca-group6 {
     position: absolute;
-    left:224px;
-    top:356px;
+    left: 224px;
+    top: 356px;
 }
+
 h2#Produto1 {
     position: absolute;
     display: inline;
@@ -1217,7 +1225,7 @@ h2#Produto1 {
     color: #0d0d0d;
 }
 
-span#prod-uni-1{
+span#prod-uni-1 {
     position: absolute;
     display: inline;
     top: 252px;
@@ -1240,7 +1248,7 @@ span#prod-preco-1 {
 }
 
 span#prod-error-1 {
-    position:absolute;
+    position: absolute;
     top: 208px;
     left: 68px;
     font-size: 1em;
@@ -1250,11 +1258,13 @@ span#prod-error-1 {
     line-height: 17px;
     color: rgb(151, 1, 1);
 }
-div#info-prod-group-1{
+
+div#info-prod-group-1 {
     position: absolute;
     top: 0px;
     left: 230px;
 }
+
 h2#Produto2 {
     position: absolute;
     display: inline;
@@ -1268,10 +1278,10 @@ h2#Produto2 {
     font-style: bolder;
     line-height: 17px;
     color: #0d0d0d;
-    text-shadow:1px 3px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-span#prod-uni-2{
+span#prod-uni-2 {
     position: absolute;
     display: inline;
     top: 252px;
@@ -1293,7 +1303,7 @@ span#prod-preco-2 {
 }
 
 span#prod-error-2 {
-    position:absolute;
+    position: absolute;
     top: 208px;
     left: 57px;
     width: 210px;
@@ -1305,11 +1315,12 @@ span#prod-error-2 {
     color: rgb(151, 1, 1);
 }
 
-div#info-prod-group-2{
+div#info-prod-group-2 {
     position: absolute;
     top: 0px;
     left: 453px;
 }
+
 h2#Produto3 {
     position: absolute;
     display: inline;
@@ -1323,10 +1334,10 @@ h2#Produto3 {
     font-style: bolder;
     line-height: 17px;
     color: #0d0d0d;
-    text-shadow:1px 3px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-span#prod-uni-3{
+span#prod-uni-3 {
     position: absolute;
     display: inline;
     top: 252px;
@@ -1348,7 +1359,7 @@ span#prod-preco-3 {
 }
 
 span#prod-error-3 {
-    position:absolute;
+    position: absolute;
     top: 208px;
     left: 57px;
     width: 210px;
@@ -1360,11 +1371,12 @@ span#prod-error-3 {
     color: rgb(151, 1, 1);
 }
 
-div#info-prod-group-3{
+div#info-prod-group-3 {
     position: absolute;
     top: 357px;
     left: 5px;
 }
+
 h2#Produto4 {
     position: absolute;
     display: inline;
@@ -1378,10 +1390,10 @@ h2#Produto4 {
     font-style: bolder;
     line-height: 17px;
     color: #0d0d0d;
-    text-shadow:1px 3px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-span#prod-uni-4{
+span#prod-uni-4 {
     position: absolute;
     display: inline;
     top: 252px;
@@ -1403,7 +1415,7 @@ span#prod-preco-4 {
 }
 
 span#prod-error-4 {
-    position:absolute;
+    position: absolute;
     top: 208px;
     left: 57px;
     width: 210px;
@@ -1415,11 +1427,12 @@ span#prod-error-4 {
     color: rgb(151, 1, 1);
 }
 
-div#info-prod-group-4{
+div#info-prod-group-4 {
     position: absolute;
     top: 357px;
     left: 231px;
 }
+
 h2#Produto5 {
     position: absolute;
     display: inline;
@@ -1433,10 +1446,10 @@ h2#Produto5 {
     font-style: bolder;
     line-height: 17px;
     color: #0d0d0d;
-    text-shadow:1px 3px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-span#prod-uni-5{
+span#prod-uni-5 {
     position: absolute;
     display: inline;
     top: 252px;
@@ -1458,7 +1471,7 @@ span#prod-preco-5 {
 }
 
 span#prod-error-5 {
-    position:absolute;
+    position: absolute;
     top: 208px;
     left: 57px;
     width: 210px;
@@ -1470,11 +1483,12 @@ span#prod-error-5 {
     color: rgb(151, 1, 1);
 }
 
-div#info-prod-group-5{
+div#info-prod-group-5 {
     position: absolute;
     top: 357px;
     left: 455px;
 }
+
 h2#Produto6 {
     position: absolute;
     display: inline;
@@ -1488,10 +1502,10 @@ h2#Produto6 {
     font-style: bolder;
     line-height: 17px;
     color: #0d0d0d;
-    text-shadow:1px 3px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-span#prod-uni-6{
+span#prod-uni-6 {
     position: absolute;
     display: inline;
     top: 252px;
@@ -1513,7 +1527,7 @@ span#prod-preco-6 {
 }
 
 span#prod-error-6 {
-    position:absolute;
+    position: absolute;
     top: 208px;
     left: 57px;
     width: 210px;
@@ -1525,110 +1539,150 @@ span#prod-error-6 {
     color: rgb(151, 1, 1);
 }
 
-div#beijinho-group1{
+div#beijinho-group1 {
     position: absolute;
     top: 0px;
     left: 0px;
 }
 
-div#beijinho-group2{
+div#beijinho-group2 {
     position: absolute;
     top: 0px;
     left: 232px;
 }
 
-div#beijinho-group3{
+div#beijinho-group3 {
     position: absolute;
     top: 357px;
     left: -225px;
 }
 
-div#beijinho-group4{
+div#beijinho-group4 {
     position: absolute;
     top: 357px;
     left: 4px;
 }
 
-div#beijinho-group5{
+div#beijinho-group5 {
     position: absolute;
     top: 357px;
     left: 232px;
 }
 
-div#beijinho-group6{
+div#beijinho-group6 {
     position: absolute;
     top: 0px;
     left: 4px;
 }
 
-div#cajuzinho-group1{
+div#cajuzinho-group1 {
     position: absolute;
     top: 0px;
     left: 0px;
 }
 
-div#cajuzinho-group2{
+div#cajuzinho-group2 {
     position: absolute;
     top: 0px;
     left: 232px;
 }
 
-div#cajuzinho-group3{
+div#cajuzinho-group3 {
     position: absolute;
     top: 357px;
     left: -225px;
 }
 
-div#cajuzinho-group4{
+div#cajuzinho-group4 {
     position: absolute;
     top: 357px;
     left: 4px;
 }
 
-div#cajuzinho-group5{
+div#cajuzinho-group5 {
     position: absolute;
     top: 357px;
     left: 232px;
 }
 
-div#cajuzinho-group6{
+div#cajuzinho-group6 {
     position: absolute;
     top: 0px;
     left: 4px;
 }
 
-div#casadinho-group1{
+div#casadinho-group1 {
     position: absolute;
     top: 0px;
     left: 0px;
 }
 
-div#casadinho-group2{
+div#casadinho-group2 {
     position: absolute;
     top: 0px;
     left: 232px;
 }
 
-div#casadinho-group3{
+div#casadinho-group3 {
     position: absolute;
     top: 357px;
     left: -225px;
 }
 
-div#casadinho-group4{
+div#casadinho-group4 {
     position: absolute;
     top: 357px;
     left: 4px;
 }
 
-div#casadinho-group5{
+div#casadinho-group5 {
     position: absolute;
     top: 357px;
     left: 232px;
 }
 
-div#casadinho-group6{
+div#casadinho-group6 {
     position: absolute;
     top: 0px;
     left: 4px;
+}
+
+p#info-email {
+    position: absolute;
+    width: 154px;
+    height: 16px;
+    left: 124px;
+    top: 609.37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+p#info-contato {
+    position: absolute;
+    width: 154px;
+    height: 16px;
+    left: 122px;
+    top: 568.37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+img#icon-whats {
+    position: absolute;
+    top: -9px;
+    left: -52px;
+}
+
+img#icon-email {
+    position: absolute;
+    top: -5px;
+    left: -48px;
 }

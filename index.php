@@ -29,9 +29,9 @@ include 'data/info.php';
         <div id="main-rect-frente">
             <section>
                 <header>
-                    <h1>Quem somos</h1>
+                    <h1 style="top:5px">Quem somos</h1>
                 </header>
-                <p style="line-height: 20px;">A fábrica de brigadeiros Lucky Sugar atua no
+                <p style="line-height: 20px; height: 50px; top: 0px">A fábrica de brigadeiros Lucky Sugar atua no
                     mercado de doces desde 1997</p>
                 <a href="https://localhost/mapa/21114086-5_JonatanRenan/pages/quem-somos.php">
                     <button type="submit" value="Ver mais"><span>Ver mais</span></button>
@@ -46,10 +46,10 @@ include 'data/info.php';
 
             <section>
                 <header>
-                    <h1>Onde estamos localizados</h1>
+                    <h1 style="top: 90px">Onde estamos localizados</h1>
                 </header>
 
-                <p style="line-height: 20px;">
+                <p style="line-height: 20px; height: 50px; top:100px">
                     Estamos localizados no município de <strong>Maringa</strong> do estado de Curitiba - Paraná
                 </p>
                 <!--
@@ -58,7 +58,7 @@ include 'data/info.php';
                 </section>
                 <-->
                 <a href="https://localhost/mapa/21114086-5_JonatanRenan/pages/localizacao.php">
-                    <button type="submit" value="Ver mais"><span>Ver Mais</span></button>
+                    <button type="submit" value="Ver mais" style="top:124px;"><span>Ver Mais</span></button>
                 </a>
 
                 <div class="amostras">
@@ -70,14 +70,26 @@ include 'data/info.php';
 
             <section>
                 <header>
-                    <h1>Contato</h1>
+                    <h1 style="top: 155px">Contato</h1>
                 </header>
 
-                <p style="line-height: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore voluptas recusandae explicabo beatae sequi quidem, quibusdam in asperiores mollitia, quaerat at maxime sit inventore. Odio quisquam quam eveniet eaque ipsum?</p>
-                
+                <p id="info-contato" style="line-height: 20px;">
+                <img src="img/main/contato/Whatsapp_icon.png" alt="Whatsapp" id="icon-whats">
+                    <?php
+                        echo $about["Contato"];
+                    ?>
+                </p>
+
+                <p id="info-email" style="line-height: 20px;">
+                <img src="img/main/contato/gmail_google.png" alt="Email" id="icon-email">
+                    <?php
+                        echo $about["Email"];
+                    ?>
+                </p>
+
                 <a href="https://localhost/mapa/21114086-5_JonatanRenan/pages/contato.php">
-                <button type="submit" value="Ver mais"><span>Ver mais</span></button>
-                    </a>
+                    <button type="submit" value="Ver mais" style="top:270px"><span>Ver mais</span></button>
+                </a>
 
                 <div class="amostras">
                     <img src="img/main/index/Cajuzinho-Vegano.jpg" alt="Foto-de-Cajuzinho" id="cajuzinho">

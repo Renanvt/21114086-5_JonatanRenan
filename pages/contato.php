@@ -43,6 +43,7 @@ include '../layout/header.php';
 
 <div id="main-rect-fundo">
     <div id="main-rect-frente">
+    <div id="wufoo-z11oj55z0z2rj6g"> Fill out my <a href="https://renanvt.wufoo.com/forms/z11oj55z0z2rj6g">online form</a>. </div> <script type="text/javascript"> var z11oj55z0z2rj6g; (function(d, t) { var s = d.createElement(t), options = { 'userName':'renanvt', 'formHash':'z11oj55z0z2rj6g', 'autoResize':true, 'height':'574', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { z11oj55z0z2rj6g = new WufooForm(); z11oj55z0z2rj6g.initialize(options); z11oj55z0z2rj6g.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>
     <img src="../img/main/contato/suport.jpg" alt="Suporte" id="suport">
     </div>
 </div>
