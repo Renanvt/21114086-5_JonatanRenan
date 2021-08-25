@@ -1,4 +1,4 @@
-![Index]()
+![Index](lucky-sugar-index.png)
 
 # Contato
 
